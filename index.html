@@ -8,10 +8,12 @@
   <a href="https://wharkly47.github.io/Trackwick/" id="monLien">Mon lien</a>
 
   <script>
-    document.getElementById('monLien').addEventListener('click', function() {
+    document.getElementById('monLien').addEventListener('click', function(event) {
+      event.preventDefault(); // Empêcher le comportement par défaut du lien
+
       // Effectuer une action au clic, comme envoyer des données à un serveur
       // Par exemple :
-      fetch('/package.json', {
+      fetch('https://wharkly47.github.io/Trackwick/', {
         method: 'POST',
         body: JSON.stringify({ action: 'clic sur le lien' }),
         headers: {
