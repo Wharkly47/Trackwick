@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracking</title>
+</head>
+<body>
+  <a href="#" id="monLien">Mon lien</a>
+
+  <script>
+    document.getElementById('monLien').addEventListener('click', function() {
+      // Effectuer une action au clic, comme envoyer des données à un serveur
+      // Par exemple :
+      fetch('/enregistrer-clic', {
+        method: 'POST',
+        body: JSON.stringify({ action: 'clic sur le lien' }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      }).then(response => {
+        // Gérer la réponse du serveur
+      }).catch(error => {
+        // Gérer les erreurs
+      });
+    });
+  </script>
+</body>
+</html>
