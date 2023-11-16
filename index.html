@@ -13,7 +13,7 @@
 
       // Effectuer une action au clic, comme envoyer des données à un serveur
       // Par exemple :
-      fetch('https://wharkly47.github.io/Trackwick/', {
+      fetch('http://localhost:3000/enregistrer-clic', { // Assurez-vous de changer cette URL si nécessaire
         method: 'POST',
         body: JSON.stringify({ action: 'clic sur le lien' }),
         headers: {
