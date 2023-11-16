@@ -7,7 +7,7 @@ Trackwick is a link click tracking system developed by Wharkly47.
 
 Make sure you have Node.js installed on your machine.
 
-1. Clone the repository: `git clone https://github.com/YOUR_USERNAME/Trackwick.git`
+1. Clone the repository: `git clone https://github.com/Wharkly47/Trackwick.git`
 2. Navigate to the directory: `cd Trackwick`
 3. Install dependencies: `npm install`
 
