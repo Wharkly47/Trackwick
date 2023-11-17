@@ -1,40 +1,26 @@
-
 {
-  "name": "nom-de-votre-projet",
+  "name": "Trackwick",
   "version": "1.0.0",
-  "description": "Description de votre projet",
+  "description": "Le logiciel de suivi  Trackwick est une solution complète conçue pour permettre le suivi et l'analyse efficaces de diverses données et activités. Il offre une gamme de fonctionnalités robustes pour répondre aux besoins de suivi dans différents domaines.
+
+Fonctionnalités principales :
+
+Suivi Multiplateforme : Permet de suivre des données sur plusieurs plateformes (web, mobile, etc.) pour une vue complète et unifiée.
+
+Analyse Avancée : Offre des outils d'analyse puissants pour interpréter les données collectées, générer des rapports détaillés et tirer des insights significatifs.
+
+Personnalisation : Permet de personnaliser les critères de suivi en fonction des besoins spécifiques de l'utilisateur.
+
+Sécurité Renforcée : Garantit la confidentialité des données grâce à des mesures de sécurité avancées et une gestion des accès précise.
+
+Intégrations : Intègre facilement des outils tiers pour une connectivité et une fonctionnalité étendues.",
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
-    "body-parser": "^1.19.0" // Ajout de body-parser pour analyser le corps des requêtes
+    "body-parser": "^1.19.0"
   },
   "scripts": {
     "start": "node app.js"
-  },
-  "author": "Wharkly47",
-  "license": "Licence souhaitée (par exemple MIT)"
-}
-
-
-
-
-
-
-
-
-
-
-
-{
-  "name": "nom-de-votre-projet",
-  "version": "1.0.0",
-  "description": "Description de votre projet",
-  "main": "app.js", // Fichier principal de votre application
-  "dependencies": {
-    "express": "^4.17.1" // Exemple de dépendance (version utilisée)
-  },
-  "scripts": {
-    "start": "node app.js" // Commande pour démarrer votre application
   },
   "author": "Wharkly47",
   "license": "Licence souhaitée (par exemple MIT)"
